@@ -2,7 +2,8 @@ import java.util.*;
 
 public class Account{ 
 
-	static void Balance(int money){ 		if(money<500) 
+	static void Balance(int money){ 		
+		   if(money<500) 
 
 			throw new ArithmeticException("Sorry,balance amount  is less than 500"); 
 
